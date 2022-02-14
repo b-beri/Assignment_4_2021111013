@@ -1,0 +1,7 @@
+set terminal pdf
+set output "q3.pdf"
+set title "Value of PI vs n(Number of Points)"
+set style data linespoints
+set format y '%.2s'
+set yrange [2.5:4]
+plot for [COL=2:3] "q3.data" using COL:xtic(1) title "PI Value" with linespoints pointtype 12
