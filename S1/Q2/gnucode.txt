@@ -1,9 +1,9 @@
 set terminal pdf
-set output "q1.pdf"
+set output "q2.pdf"
 set title "Dice Throw Histogram"
 set style data histogram
 set style fill solid
 set style histogram clustered gap 1 title textcolor lt -1
 set auto x
 set yrange [0:]
-plot for [COL=2:2] "q1.data" using COL:xtic(1) title "Dice Throw Times"
+plot for [COL=2:2] "q2.data" using COL:xtic(1) title "Dice Throw Times"

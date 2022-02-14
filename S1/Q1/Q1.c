@@ -6,7 +6,7 @@
 
 void fileWrite(long long count[],int nMax)
 {
-  FILE *fp=fopen("q1a.data","w");
+  FILE *fp=fopen("q1.data","w");
   char names[11][7]={"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
 
   for(int i=1;i<=nMax;i++)
