@@ -5,7 +5,7 @@ Install GNUPlot -> ``` sudo apt-get install -y gnuplot ```
 
 ----
 #### Section - 1
-**Q1**. Move to that directory & :
+**Q1**. Move to that directory & just:
 
 ``` gcc Q1.c ```
 
@@ -13,7 +13,7 @@ Install GNUPlot -> ``` sudo apt-get install -y gnuplot ```
 
 And see the plot file.
 
-**Q2**. Move to that  directory & :
+**Q2**. Move to that  directory & just:
 
 ``` gcc Q2.c ```
 
