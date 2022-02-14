@@ -15,7 +15,7 @@ And see the plot.
 
 **Q2**. Move to that  directory & :
 
-``` gcc Q1.c ```
+``` gcc Q2.c ```
 
 ``` ./a.out ```
 
