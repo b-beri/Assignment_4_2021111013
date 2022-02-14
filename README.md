@@ -25,7 +25,13 @@ And see the plot file.
 
 ----
 #### Section - 2
-**Q4 a)**
+**Q4 a)** Move to that directory & just:
+
+```gcc q4a.c ```
+
+```./a.out data.txt q4a.txt ```
+
+And see the ```q4a.txt``` Output File.
 
 **Q4 b)**
 
