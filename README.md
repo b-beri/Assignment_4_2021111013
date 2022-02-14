@@ -23,6 +23,14 @@ And see the plot file.
 
 **Q3**. 
 
+Move to that  directory & just:
+
+``` gcc Q3.c ```
+
+``` ./a.out ```
+
+And see the plot file.
+
 ----
 ### _Section - 2_
 **Q4 a)** Move to that directory & just:
