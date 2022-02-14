@@ -46,7 +46,7 @@ And see the ```q4a.txt``` Output File.
 
 ``` gcc 6.c ```
 
-``` ./a.out ```
+``` ./a.out q6_ans.txt file_1.txt file_2.txt file_3.txt```
 
 And see the output file.
 
@@ -54,6 +54,14 @@ And see the output file.
 
 ``` gcc 7.c ```
 
-``` ./a.out ```
+``` ./a.out q7_ans.txt file_1.txt file_2.txt file_3.txt```
+
+And see the output file.
+
+**Q8**. Move to that  directory & just:
+
+``` gcc 8.c ```
+
+``` ./a.out input1.txt input2.txt q8_ans.txt```
 
 And see the output file.
