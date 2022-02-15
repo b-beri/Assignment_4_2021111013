@@ -35,11 +35,11 @@ And see the plot file.
 ### _Section - 2_
 **Q4 a)** Move to that directory & just:
 
-```gcc q4a.c ```
+```gcc 4a.c ```
 
-```./a.out data.txt q4a.txt ```
+```./a.out data.txt mean.txt ```
 
-And see the ```q4a.txt``` Output File.
+And see the ```mean.txt``` Output File.
 
 **Q4 b)**
 

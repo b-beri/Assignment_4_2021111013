@@ -31,7 +31,7 @@ void fileWrite()
 {
     FILE *fp = fopen("q3.data", "w");
 
-    for (int i = 100; i <= 1000; i+=100)
+    for (int i = 100; i <= 1000000; i*=5)
     {
         //printf("%s %lld\n", &names[i][0], count[i]);
         fprintf(fp, "%d %Lf %.5lf\n", i,RandomNumberGenerator(i),3.14159);
