@@ -54,8 +54,25 @@ And see the ```output.txt``` Output File.
 ----
 ### _Section -3_
 
+**Q5 a)** Move to that  directory & just:
+
+``` gcc 5a.c ```
+
+``` ./a.out ```
+
+And see the output on terminal.
+
+**Q5 b)** Move to that  directory & just:
+
+``` gcc 5b.c ```
+
+``` ./a.out ```
+
+And see the output on terminal.
+
 ----
 ### _Section - 4_
+
 **Q6**. Move to that directory & just:
 
 ``` gcc 6.c ```
