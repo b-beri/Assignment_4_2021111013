@@ -6,4 +6,4 @@ set style line 1 lt 3 lw 0.9 pt 3 ps 0.5 lc rgb "red"
 set style line 2 lt 6 lw 0.9 pt 6 ps 0.5 lc rgb "olive"
 set style line 3 lt 6 lw 0.9 lc rgb "blue"
 plot "q4b.data" using 2:xtic(int($0)%4==1 ? strcol(1):'') title "Actual Variance" with linespoints ls 1,"q4b.data" using 3:xtic(int($0)%4==1 ? strcol(1):'') title "Approx Variance" with linespoints ls 2,\
-int(variance) with lines title "Actual Overall Variance" ls 3
+int(variance) with lines title "Exact Actual Overall Variance" ls 3

@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     //FILE *f2 = fopen("input2.txt", "r");
     //FILE *fw = fopen("q8_ans.txt", "w");
 
-    char a[25], b[25];
+    char a[101], b[101];
     short int a1 = 0, b1 = 0;
 
     while (a1 != -1 || b1 != -1)

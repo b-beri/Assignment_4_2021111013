@@ -41,7 +41,13 @@ And see the plot file.
 
 And see the ```mean.txt``` Output File.
 
-**Q4 b)** 
+**Q4 b)** Move to that directory & just:
+
+```gcc 4b.c ```
+
+```./a.out data.txt mean.txt variance.txt```
+
+And see the ```variance.txt``` Output File.
 
 **Q4 c)** Move to that directory & just:
 
@@ -69,6 +75,8 @@ And see the output on terminal.
 ``` ./a.out ```
 
 And see the output on terminal.
+
+**Q5 c)**
 
 ----
 ### _Section - 4_
