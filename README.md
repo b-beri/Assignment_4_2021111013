@@ -103,4 +103,4 @@ And see the output file.
 
 ``` ./a.out input.txt output.txt```
 
-And see the output file.
+And see the output file. _(Output file name can be same as the Input file name too, i.e. Final Output in the same File)_
