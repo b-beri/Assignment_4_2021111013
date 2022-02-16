@@ -6,10 +6,10 @@
 
 FILE **fps;
 
-void stringSort(char names[][25], int numofnames)
+void stringSort(char names[][101], int numofnames)
 {
     int swap_count = 0;
-    char tempstr[25];
+    char tempstr[101];
 
     if (numofnames == 1)
         return;
@@ -41,7 +41,7 @@ void FileSort1(long long int n)
 
     FILE *fr = fopen(file_i_name, "r");
 
-    char data[100000][25];
+    char data[100000][101];
     long long i = 0;
     while (fscanf(fr, "%s", data[i++]) != EOF)
         ;
@@ -68,7 +68,7 @@ void FileSort2(FILE *f1, FILE *f2, FILE *fw)
     //  FILE *f2 = fopen("input2.txt", "r");
     //  FILE *fw = fopen("q8_ans.txt", "w");
 
-    char a[25], b[25];
+    char a[101], b[101];
     short int a1 = 0, b1 = 0;
 
     while (a1 != -1 || b1 != -1)
@@ -179,7 +179,7 @@ int main(int argc, char *argv[])
 {
     //FILE *MainFile = fopen("try_data.txt", "r");
     FILE *MainFile = fopen(argv[1], "r");
-    char a[50];
+    char a[101];
     fps = (FILE **)malloc(50 * sizeof(FILE *));
 
     long long int count = 0, count_files = 0, max_files = 50;
@@ -188,7 +188,7 @@ int main(int argc, char *argv[])
 
     while (fscanf(MainFile, "%s", a) != EOF)
     {
-        if (count < 10) // MAX_LENGTH)
+        if (count < MAX_LENGTH)
         {
             fprintf(fps[count_files], "%s \n", a);
             count++;
