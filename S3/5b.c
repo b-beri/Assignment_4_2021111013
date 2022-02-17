@@ -49,10 +49,12 @@ void calculate()
 			count_rand_0_1++;
 		}
     }
-    printf("%lf\n", count_xor_0_0 / (1000000-127));
-	printf("%lf\n", count_xor_0_1 / (1000000-127));
-	printf("%lf\n", count_rand_0_0 / (1000000-127));
-	printf("%lf\n", count_rand_0_1 / (1000000-127));
+    printf("Via XORing Random Seed\n");
+    printf("P(x[i]= 0/x[i−1]= 0) = %lf\n", count_xor_0_0 / (1000000-127));
+	printf("P(x[i]= 0/x[i−1]= 1) = %lf\n", count_xor_0_1 / (1000000-127));
+    printf("Via Random Method\n");
+	printf("P(x[i]= 0/x[i−1]= 0) = %lf\n", count_rand_0_0 / (1000000-127));
+	printf("P(x[i]= 0/x[i−1]= 1) = %lf\n", count_rand_0_1 / (1000000-127));
 }
 
 int main()
