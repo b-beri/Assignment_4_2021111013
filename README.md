@@ -47,7 +47,7 @@ And see the ```mean.txt``` Output File.
 
 ```./a.out data.txt mean.txt variance.txt```
 
-And see the ```variance.txt``` Output File.
+And see the ```variance.txt``` Output File  & the also the ``` q4b.pdf``` graph.
 
 **Q4 c)** Move to that directory & just:
 
