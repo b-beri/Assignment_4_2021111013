@@ -76,7 +76,19 @@ And see the output on terminal.
 
 And see the output on terminal.
 
-**Q5 c)**
+**Q5 c)** Move to that  directory &:
+
+``` gcc 5c_encrypt.c ```
+
+``` ./a.out <input file> <key txt file> <encrypt txt file> ```
+
+``` gcc 5c_decrypt.c ```
+
+``` ./a.out <key txt file> <encrypt txt file> <output file> ```
+
+And see the output file.
+
+_Input & Output File can be an image, text file, PDF FIle, etc. of any size, Program can handle most of them efficiently._
 
 ----
 ### _Section - 4_
